@@ -47,8 +47,8 @@ a:hover{
     margin-bottom: 50px;
 }
 img{
-    width: 80vw;
-
+    width: 70vw;
+border: 1px solid black;
     border-radius: 10px;
 
 }
