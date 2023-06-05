@@ -1,0 +1,48 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.number{
+    margin-top: 150px;
+}
+.novis{
+    display: none;
+}
+.starttext{
+    margin-top: 30vh;
+font-size: 30px;
+margin-bottom: 50px;
+}
+.startlink{
+font-size: 25px;
+background-color: black;
+color: white;
+padding: 20px;
+border-radius: 10px;
+cursor: pointer;
+margin-top: 50px;
+}
+a{
+    font-size: 25px;
+background-color: black;
+color: white;
+padding: 20px;
+border-radius: 10px;
+cursor: pointer;
+margin: 20px;
+transition: scale 200ms;
+}
+a:hover{
+    scale: 1.05;
+}
+.choosetext{
+    margin-top: 30vh;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+img{
+    height: 70vh;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Web Page</title>
+    <!-- Add any additional CSS or external stylesheets here -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Your HTML content goes here -->
+    <p class="starttext" id="starttext">Hier klicken, um die App zum Startbildschirm hinzuzufügen</p>
+    <a onclick="startChoosing()" class="startlink" id="startlink">Los gehts!</a>
+    <div class="choosetype novis" id="choosetype">
+        <p class="choosetext">Hast du ein android handy oder ein iPhone?</p>
+        <a onclick="goAndroid()" class="android">Ein android handy</a>
+        <a onclick="goIphone()" class="apple">Ein iPhone</a>
+    </div>
+    <div class="androidtutorial novis" id="androidtutorial">
+        <h1>Anleitung für Android handys</h1>
+        <p class="number">1. Öffne die google App</p>
+        <img src="" alt="Drücke unten in der Mitte auf teilen">
+        <p class="number">2. Tippe auf die drei Punkte/drei Striche"</p>
+        <img src="" alt="">
+        <p class="number">3. Drücke auf hinzuzufügen/zum Startbildschirm hinzuzufügen</p>
+        <img src="" alt="">
+        <p class="number">4. Vergib einen Namen für die App und drücke hinzufügen</p>
+        <img src="" alt="">
+    </div>
+    <div class="iPhonetutorial novis" id="iPhonetutorial">
+        <h1>Anleitung für iPhone handys</h1>
+        <p class="number">1. Drücke unten in der Mitte auf teilen</p>
+        <img src="iPhone1.jpg" alt="Drücke unten in der Mitte auf teilen">
+        <p class="number">2. Drücke auf "Zum Home-Bildschirm"</p>
+        <img src="iPhone2.jpg" alt="">
+        <p class="number">3. Drücke auf "Hinzufügen"</p>
+        <img src="iPhone3.jpg" alt="">
+    </div>
+
+    <!-- Add any JavaScript code or external scripts here -->
+    <script src="script.js"></script>
+</body>
+</html>
