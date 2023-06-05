@@ -42,7 +42,8 @@ a:hover{
     margin-bottom: 50px;
 }
 img{
-    height: 70vh;
+    width: 100vw;
+
     border-radius: 10px;
 
 }
